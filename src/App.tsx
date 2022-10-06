@@ -1,9 +1,10 @@
+import { WeatherContainer } from "./components/WeatherContainer"
 
 function App() {
 
   return (
-    <div className="App">
-      <h1 className="bg-red-700">Hola TypeScript!</h1>
+    <div className="w-full h-screen flex flex-col justify-center items-center">
+      <WeatherContainer />
     </div>
   )
 }
